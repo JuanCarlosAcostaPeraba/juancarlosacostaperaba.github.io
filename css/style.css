@@ -1,4 +1,26 @@
-footer a.copyright {
-    color: #d5d2cc;
-    text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.sign-font {
+    font-family: "Nothing You Could Do", cursive !important;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to top, #b9c0c6 0%, white 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.drop-shadow {
+    filter: drop-shadow(10px 10px 5px #5f5f60a7);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
 }

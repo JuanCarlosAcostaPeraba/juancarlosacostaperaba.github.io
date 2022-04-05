@@ -1,18 +1,26 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    height: 100vh;
-    background-color: #000000;
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.sign-font {
+    font-family: "Nothing You Could Do", cursive !important;
 }
 
-.my-data {
-    background-color: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    color: white;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    z-index: 1;
+.gradient-text {
+    background-image: linear-gradient(to top, #b9c0c6 0%, white 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.drop-shadow {
+    filter: drop-shadow(10px 10px 5px #5f5f60a7);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
 }

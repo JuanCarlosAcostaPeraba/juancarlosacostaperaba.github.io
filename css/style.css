@@ -23,4 +23,7 @@
     position: relative;
     top: -0.14em;
     left: 10px;
+    background-image: linear-gradient(to top, #b9c0c6 0%, white 100%);
+    color: transparent;
+    -webkit-background-clip: text;
 }

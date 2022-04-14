@@ -1,457 +1,376 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <!-- Metadata -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="Content-Type" content="text/html; ISO-8859-1" />
-        <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
-        <meta name="AUTHOR" content="Juan Carlos Acosta Perabá" />
-        <meta name="REPLY-TO" content="juancarlos.ap.dev@gmail.com" />
-        <meta
-            name="DESCRIPTION"
-            content="Portfolio de JuanCarlosAcostaPeraba"
-        />
-        <meta
-            name="KEYWORDS"
-            content="portfolio,JuanCarlosAcostaPeraba,github"
-        />
-        <meta name="Resource-type" content="Homepage" />
-        <meta name="robots" content="FOLLOW" />
-        <!-- Title -->
-        <title>Juan Calos Acosta Perabá</title>
-        <!-- Favicon -->
-        <link
-            rel="shortcut icon"
-            href="./assets/favicon.ico"
-            type="image/x-icon"
-        />
-        <!-- Bootstrap CSS CDN -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <!-- Bootstrap Icons CDN -->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-        />
-        <!-- Font Awesome Icons -->
-        <link
-            rel="stylesheet"
-            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-            crossorigin="anonymous"
-        />
-        <!-- CSS -->
-        <link rel="stylesheet" href="./css/styles.min.css" />
-        <link rel="stylesheet" href="./css/style.css" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#mastHead"
-                    >Juan Carlos Acosta Perabá</a
-                >
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive"
-                    aria-controls="navbarResponsive"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    Menu <i class="bi bi-list" style="font-size: 1rem"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<html lang="en">
 
-        <!-- Masthead-->
-        <header class="masthead" id="mastHead">
-            <div class="container">
-                <div class="masthead-heading text-uppercase gradient-text">
-                    Web Developer
-                </div>
-                <div class="masthead-subheading gradient-text p-1">
-                    <span id="text"></span>
-                    <div class="console-underscore" id="console">&#95;</div>
-                </div>
-                <a
-                    class="btn btn-primary btn-xl text-uppercase"
-                    href="#services"
-                >
-                    Tell Me More
-                </a>
-            </div>
-        </header>
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; ISO-8859-1" />
+    <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
+    <meta name="AUTHOR" content="Juan Carlos Acosta Perabá" />
+    <meta name="REPLY-TO" content="juancarlos.ap.dev@gmail.com" />
+    <meta name="DESCRIPTION" content="Portfolio de JuanCarlosAcostaPeraba" />
+    <meta name="KEYWORDS" content="portfolio,JuanCarlosAcostaPeraba,github" />
+    <meta name="Resource-type" content="Homepage" />
+    <meta name="robots" content="FOLLOW" />
+    <!-- Title -->
+    <title>Juan Calos Acosta Perabá</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- Preloader -->
+    <link rel="preload" href="preloader.js" as="script">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">
-                        Experience in 2 projects and working on 2 new ones
-                    </h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i
-                                class="fas fa-circle fa-stack-2x text-primary"
-                            ></i>
-                            <i class="far fa-code fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Back-end</h4>
-                        <p class="text-muted">
-                            Back-end programming for applications. Control and
-                            management of Databases. Management and creation of
-                            APIs
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i
-                                class="fas fa-circle fa-stack-2x text-primary"
-                            ></i>
-                            <i class="fal fa-window fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Websites</h4>
-                        <p class="text-muted">
-                            Responsive websites for informative static websites
-                            for companies, NFT projects and portfolios.
-                            Minimalist and clean designs
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i
-                                class="fas fa-circle fa-stack-2x text-primary"
-                            ></i>
-                            <i
-                                class="fab fa-app-store fa-stack-1x fa-inverse"
-                            ></i>
-                        </span>
-                        <h4 class="my-3">Applications</h4>
-                        <p class="text-muted">
-                            Web and cross-platform apps that can be used on all
-                            devices. From billing applications to online stores
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">
-                        Projects I have been involved in
-                    </h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a
-                                class="portfolio-link"
-                                href="https://juancarlosacostaperaba.github.io/Sign-Draw-Paint/"
-                                target="_blank"
-                            >
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="bi bi-eye-fill fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img
-                                    class="img-fluid"
-                                    src="./assets/img/porjects/sign_draw_paint_canvas.png"
-                                    alt="Sign/Draw/Paint Canvas image"
-                                />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">
-                                    Signature Canvas
-                                </div>
-                                <div
-                                    class="portfolio-caption-subheading text-muted"
-                                >
-                                    Canvas to generating a signature of a form
-                                </div>
-                            </div>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="spinner">
+                <div class="spinner-container">
+                    <div class="spinner-rotator">
+                        <div class="spinner-left">
+                            <div class="spinner-circle"></div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a
-                                class="portfolio-link"
-                                href="https://solanacryptofoxes.com/"
-                                target="_blank"
-                            >
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="bi bi-eye-fill fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img
-                                    class="img-fluid"
-                                    src="./assets/img/porjects/solana_cryto_foxes_web.png"
-                                    alt="Solana Cryto Foxes Web image"
-                                />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">
-                                    Solana Cryto Foxes Web
-                                </div>
-                                <div
-                                    class="portfolio-caption-subheading text-muted"
-                                >
-                                    NFT project landing website
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3 -->
-                        <div class="portfolio-item">
-                            <a
-                                class="portfolio-link"
-                                href="./error/404.html"
-                                target="_blank"
-                            >
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="bi bi-eye-fill fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img
-                                    class="img-fluid"
-                                    src="./assets/img/porjects/invoice_management.png"
-                                    alt="Invoice management Web application image"
-                                />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">
-                                    Invoice management
-                                </div>
-                                <div
-                                    class="portfolio-caption-subheading text-muted"
-                                >
-                                    Web application build on Laravel 7
-                                </div>
-                            </div>
+                        <div class="spinner-right">
+                            <div class="spinner-circle"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">
-                        Know my story a bit more
-                    </h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img
-                                class="rounded-circle img-fluid"
-                                src="./assets/img/about/library.png"
-                                alt="Library image"
-                            />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2018-2020</h4>
-                                <h4 class="subheading">
-                                    Web development studies
-                                </h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    I did my studies related to full stack web
-                                    development in my birth place,
-                                    Fuerteventura.
-                                </p>
-                            </div>
-                        </div>
+        </div>
+    </div>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#mastHead">Juan Carlos Acosta Perabá</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="bi bi-list" style="font-size: 1rem"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img
-                                class="rounded-circle img-fluid"
-                                src="./assets/img/about/juan_1.png"
-                                alt="Juan Carlos Acosta Perabá coding image"
-                            />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">
-                                    Own system of signature
-                                </h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    During the period from April to August 2020,
-                                    I worked in a company as a full stack
-                                    developer, where I had to develop this
-                                    system.
-                                </p>
-                            </div>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img
-                                class="rounded-circle img-fluid"
-                                src="./assets/img/about/macbook_pro.png"
-                                alt="Macbook Pro image"
-                            />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2021</h4>
-                                <h4 class="subheading">Teaching programming</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    From December 2021 I started teaching
-                                    programming classes to new students at the
-                                    university.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img
-                                class="rounded-circle img-fluid"
-                                src="./assets/img/about/juan_4.png"
-                                alt="Juan Carlos Acosta Perabá coding image"
-                            />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Present</h4>
-                                <h4 class="subheading">New projects</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    I am involved in some new projects of which
-                                    no details can be given.
-                                    <br />
-                                    For the time being...
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                To infinity
-                                <br />
-                                and
-                                <br />
-                                Beyond!
-                            </h4>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">
-                        <a
-                            href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1"
-                            class="copyright"
-                            target="_blank"
-                        >
-                            Juan Carlos Acosta Perabá &copy;
-                            <span id="year"></span>
+    <!-- Masthead-->
+    <header class="masthead" id="mastHead">
+        <div class="container">
+            <div class="masthead-heading text-uppercase gradient-text">
+                Web Developer
+            </div>
+            <div class="masthead-subheading gradient-text p-1">
+                <span id="text"></span>
+                <div class="console-underscore" id="console">&#95;</div>
+            </div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#services">
+                Tell Me More
+            </a>
+        </div>
+    </header>
+
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Services</h2>
+                <h3 class="section-subheading text-muted">
+                    Experience in 2 projects and working on 2 new ones
+                </h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="far fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Back-end</h4>
+                    <p class="text-muted">
+                        Back-end programming for applications. Control and
+                        management of Databases. Management and creation of
+                        APIs
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fal fa-window fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Websites</h4>
+                    <p class="text-muted">
+                        Responsive websites for informative static websites
+                        for companies, NFT projects and portfolios.
+                        Minimalist and clean designs
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fab fa-app-store fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Applications</h4>
+                    <p class="text-muted">
+                        Web and cross-platform apps that can be used on all
+                        devices. From billing applications to online stores
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading text-muted">
+                    Projects I have been involved in
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="https://juancarlosacostaperaba.github.io/Sign-Draw-Paint/"
+                            target="_blank">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="bi bi-eye-fill fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/porjects/sign_draw_paint_canvas.png"
+                                alt="Sign/Draw/Paint Canvas image" />
                         </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                Signature Canvas
+                            </div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Canvas to generating a signature of a form
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a
-                            class="btn btn-dark btn-social mx-2"
-                            href="https://github.com/JuanCarlosAcostaPeraba"
-                            target="_blank"
-                        >
-                            <i class="bi bi-github"></i>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="https://solanacryptofoxes.com/" target="_blank">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="bi bi-eye-fill fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/porjects/solana_cryto_foxes_web.png"
+                                alt="Solana Cryto Foxes Web image" />
                         </a>
-                        <a
-                            class="btn btn-dark btn-social mx-2"
-                            href="https://twitter.com/JuanSerberoCode"
-                            target="_blank"
-                        >
-                            <i class="bi bi-twitter"></i>
-                        </a>
-                        <a
-                            class="btn btn-dark btn-social mx-2"
-                            href="https://www.linkedin.com/in/juancarlosacostaperaba/?locale=en_US"
-                            target="_blank"
-                        >
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a
-                            class="btn btn-dark btn-social mx-2"
-                            href="mailto:juancarlos.ap.dev@gmail.com"
-                        >
-                            <i class="bi bi-envelope-fill"></i>
-                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                Solana Cryto Foxes Web
+                            </div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                NFT project landing website
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a
-                            class="text-decoration-none me-3"
-                            href="./terms_conditions/privacy_policy.html"
-                        >
-                            Privacy Policy
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3 -->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="./error/404.html" target="_blank">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="bi bi-eye-fill fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/porjects/invoice_management.png"
+                                alt="Invoice management Web application image" />
                         </a>
-                        <a
-                            class="text-decoration-none"
-                            href="./terms_conditions/terms_of_use.html"
-                        >
-                            Terms of Use
-                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                Invoice management
+                            </div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Web application build on Laravel 7
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
 
-        <!-- JS -->
-        <script src="./js/script.js"></script>
-        <!-- Bootstrap JS CDN -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">
+                    Know my story a bit more
+                </h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="./assets/img/about/library.png"
+                            alt="Library image" />
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2018-2020</h4>
+                            <h4 class="subheading">
+                                Web development studies
+                            </h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                I did my studies related to full stack web
+                                development in my birth place,
+                                Fuerteventura.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="./assets/img/about/juan_1.png"
+                            alt="Juan Carlos Acosta Perabá coding image" />
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>July 2020</h4>
+                            <h4 class="subheading">
+                                Own system of signature
+                            </h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                During the period from April to August 2020,
+                                I worked in a company as a full stack
+                                developer, where I had to develop this
+                                system.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="./assets/img/about/macbook_pro.png"
+                            alt="Macbook Pro image" />
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>December 2021</h4>
+                            <h4 class="subheading">Teaching programming</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                From December 2021 I started teaching
+                                programming classes to new students at the
+                                university.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="./assets/img/about/juan_4.png"
+                            alt="Juan Carlos Acosta Perabá coding image" />
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Present</h4>
+                            <h4 class="subheading">New projects</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                I am involved in some new projects of which
+                                no details can be given.
+                                <br />
+                                For the time being...
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            To infinity
+                            <br />
+                            and
+                            <br />
+                            Beyond!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4 mt-auto">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" class="copyright"
+                        target="_blank">
+                        Juan Carlos Acosta Perabá &copy;
+                        <span id="year"></span>
+                    </a>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/JuanCarlosAcostaPeraba"
+                        target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/JuanSerberoCode" target="_blank">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social mx-2"
+                        href="https://www.linkedin.com/in/juancarlosacostaperaba/?locale=en_US" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social mx-2" href="mailto:juancarlos.ap.dev@gmail.com">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="text-decoration-none me-3" href="./terms_conditions/privacy_policy.html">
+                        Privacy Policy
+                    </a>
+                    <a class="text-decoration-none" href="./terms_conditions/terms_of_use.html">
+                        Terms of Use
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Preloader -->
+    <script src="./js/preloader.js" defer></script>
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

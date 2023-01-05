@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: juanserberocode.tk
-Token: ceba4288d91fb2b4968e46269b238f93505e4bcc505d21ee3a76c7f64a3085f9
